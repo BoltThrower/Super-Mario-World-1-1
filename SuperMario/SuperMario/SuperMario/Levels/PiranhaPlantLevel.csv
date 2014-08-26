@@ -1,0 +1,270 @@
+00,6,13
+01,1,14,69,2,Red,                   1st floor section
+06,1,12,1
+08,10,4,0
+07,13,13,2
+06,16,12,0
+02,17,10,Question,RotatingCoin
+02,21,10,Brick,NoItem
+02,22,10,Question,Powerup,          ? powerup
+08,20,3,0
+07,23,13,0
+04,29,12,2,True,Top,                1st pipe
+08,29,4,2
+04,39,11,3,False,Top,				2nd pipe
+05,40,10,PiranhaPlant
+08,37,3,1
+05,42,13,WalkingGoomba,				2nd goomba
+07,42,13,1
+04,47,10,4,False,Top,				3rd pipe
+06,49,12,1
+05,52,13,WalkingGoomba,				3rd goomba
+05,54,13,WalkingGoomba,				4th goomba
+04,58,10,4,False,Top,				4th pipe
+08,57,4,0
+07,61,13,2
+06,64,12,0
+02,65,9,Question,1up,				? 1up
+08,68,3,0
+01,72,14,15,2,Red,					2nd floor section
+07,71,13,0
+02,78,10,Brick,NoItem
+02,79,10,Question,Powerup,			? powerup
+02,80,10,Brick,NoItem
+08,76,4,2
+02,81,6,Brick,NoItem
+02,82,6,Brick,NoItem
+02,83,6,Brick,NoItem
+02,84,6,Brick,NoItem
+02,85,6,Brick,NoItem
+02,86,6,Brick,NoItem
+02,87,6,Brick,NoItem
+02,88,6,Brick,NoItem
+11,84,13,							checkpoint
+05,82,5,WalkingGoomba,				5th goomba
+05,84,5,WalkingGoomba,				6th goomba					drops through the brick he's supposed to be starting on
+08,85,3,1
+01,90,14,64,2,Red,					3rd floor section
+07,90,13,1
+02,92,6,Brick,NoItem
+02,93,6,Brick,NoItem
+02,94,6,Brick,NoItem
+02,95,6,Question,RotatingCoin
+02,95,10,CoinBrick,RotatingCoin
+05,97,13,WalkingGoomba,				7th goomba
+05,99,13,WalkingGoomba,				8th goomba
+02,101,10,Brick,NoItem
+02,102,10,Brick,Star,				brick star
+06,97,12,1
+02,107,10,Question,RotatingCoin
+02,110,10,Question,RotatingCoin
+02,110,6,Question,Powerup,			powerup
+02,113,10,Question,RotatingCoin
+05,107,13,LeftWalkingKoopa,			1st koopa
+05,114,13,WalkingGoomba,			9th goomba
+05,116,13,WalkingGoomba,			10th goomba
+08,104,4,0
+07,109,13,2
+06,112,12,0
+02,119,10,Brick,NoItem
+08,116,3,0
+07,120,13,0
+02,122,6,Brick,NoItem
+02,123,6,Brick,NoItem
+02,124,6,Brick,NoItem
+08,124,4,2
+05,125,13,WalkingGoomba,			11th goomba
+05,127,13,WalkingGoomba,			12th goomba
+02,129,6,Brick,NoItem
+05,130,13,WalkingGoomba,			13th goomba
+05,132,13,WalkingGoomba,			14th goomba
+02,130,6,Question,RotatingCoin
+02,130,10,Brick,NoItem
+02,131,6,Question,RotatingCoin
+02,131,10,Brick,NoItem
+02,132,6,Brick,NoItem
+08,133,3,1
+02,135,13,Metal,NoItem,				start of 1st staircase
+02,136,13,Metal,NoItem
+02,136,12,Metal,NoItem
+02,137,13,Metal,NoItem
+02,137,12,Metal,NoItem
+02,137,11,Metal,NoItem
+02,138,13,Metal,NoItem
+02,138,12,Metal,NoItem
+02,138,11,Metal,NoItem
+02,138,10,Metal,NoItem,				end of 1st staircase
+07,138,13,1
+02,141,13,Metal,NoItem,				start of 2nd staircase
+02,141,12,Metal,NoItem
+02,141,11,Metal,NoItem
+02,141,10,Metal,NoItem
+02,142,13,Metal,NoItem
+02,142,12,Metal,NoItem
+02,142,11,Metal,NoItem
+02,143,13,Metal,NoItem
+02,143,12,Metal,NoItem
+02,144,13,Metal,NoItem,				end of 2nd staircase
+06,145,12,1
+02,149,13,Metal,NoItem,				start of 3rd staircase
+02,150,13,Metal,NoItem
+02,150,12,Metal,NoItem
+02,151,13,Metal,NoItem
+02,151,12,Metal,NoItem
+02,151,11,Metal,NoItem
+02,152,13,Metal,NoItem
+02,152,12,Metal,NoItem
+02,152,11,Metal,NoItem
+02,152,10,Metal,NoItem
+02,153,13,Metal,NoItem
+02,153,12,Metal,NoItem
+02,153,11,Metal,NoItem
+02,153,10,Metal,NoItem,				end of 3rd staircase
+01,156,14,61,2,Red,					4th floor section
+02,156,13,Metal,NoItem,				start of 4th staircase
+02,156,12,Metal,NoItem
+02,156,11,Metal,NoItem
+02,156,10,Metal,NoItem
+02,157,13,Metal,NoItem
+02,157,12,Metal,NoItem
+02,157,11,Metal,NoItem
+02,158,13,Metal,NoItem
+02,158,12,Metal,NoItem
+02,159,13,Metal,NoItem,				end of 4th staircase
+08,152,4,0
+07,157,13,1
+06,160,12,0
+04,164,12,2,False,Top,				5th pipe
+08,163,3,0
+07,168,13,0
+02,169,10,Brick,NoItem
+02,170,10,Brick,NoItem
+02,171,10,Question,RotatingCoin
+02,172,10,Brick,NoItem
+08,173,4,2
+05,175,13,WalkingGoomba,			15th goomba
+05,177,13,WalkingGoomba,			16th goomba
+04,180,12,2,False,Top,				6th pipe
+02,182,13,Metal,NoItem,				start of final staircase
+02,183,13,Metal,NoItem
+02,183,12,Metal,NoItem
+02,184,13,Metal,NoItem
+02,184,12,Metal,NoItem
+02,184,11,Metal,NoItem
+02,185,13,Metal,NoItem
+02,185,12,Metal,NoItem
+02,185,11,Metal,NoItem
+02,185,10,Metal,NoItem
+02,186,13,Metal,NoItem
+02,186,12,Metal,NoItem
+02,186,11,Metal,NoItem
+02,186,10,Metal,NoItem
+02,186,9,Metal,NoItem
+02,187,13,Metal,NoItem
+02,187,12,Metal,NoItem
+02,187,11,Metal,NoItem
+02,187,10,Metal,NoItem
+02,187,9,Metal,NoItem
+02,187,8,Metal,NoItem
+02,188,13,Metal,NoItem
+02,188,12,Metal,NoItem
+02,188,11,Metal,NoItem
+02,188,10,Metal,NoItem
+02,188,9,Metal,NoItem
+02,188,8,Metal,NoItem
+02,188,7,Metal,NoItem
+02,189,13,Metal,NoItem
+02,189,12,Metal,NoItem
+02,189,11,Metal,NoItem
+02,189,10,Metal,NoItem
+02,189,9,Metal,NoItem
+02,189,8,Metal,NoItem
+02,189,7,Metal,NoItem
+02,189,6,Metal,NoItem
+02,190,13,Metal,NoItem
+02,190,12,Metal,NoItem
+02,190,11,Metal,NoItem
+02,190,10,Metal,NoItem
+02,190,9,Metal,NoItem
+02,190,8,Metal,NoItem
+02,190,7,Metal,NoItem
+02,190,6,Metal,NoItem,				end of final staircase
+08,181,3,1
+06,193,12,1
+02,199,13,Metal,NoItem,				flag base
+10,199,4,							flagpole
+08,201,4,0
+09,203,9,							castle
+07,205,13,1
+06,208,12,0
+12,217,13,							coin room
+01,217,14,16,2,Blue,				coin room floor section
+02,217,13,BrickBlue,NoItem,			start of coin room left wall
+02,217,12,BrickBlue,NoItem
+02,217,11,BrickBlue,NoItem
+02,217,10,BrickBlue,NoItem
+02,217,9,BrickBlue,NoItem
+02,217,8,BrickBlue,NoItem
+02,217,7,BrickBlue,NoItem
+02,217,6,BrickBlue,NoItem
+02,217,5,BrickBlue,NoItem
+02,217,4,BrickBlue,NoItem
+02,217,3,BrickBlue,NoItem
+02,217,2,BrickBlue,NoItem
+02,217,1,BrickBlue,NoItem,			end of coin room left wall
+02,221,1,BrickBlue,NoItem,			start of coin room roof
+02,222,1,BrickBlue,NoItem
+02,223,1,BrickBlue,NoItem
+02,224,1,BrickBlue,NoItem
+02,225,1,BrickBlue,NoItem
+02,226,1,BrickBlue,NoItem
+02,227,1,BrickBlue,NoItem,			end of coin room roof
+02,221,13,BrickBlue,NoItem
+02,221,12,BrickBlue,NoItem
+02,221,11,BrickBlue,NoItem
+02,221,10,BrickBlue,NoItem
+03,221,9
+03,221,7
+02,222,13,BrickBlue,NoItem
+02,222,12,BrickBlue,NoItem
+02,222,11,BrickBlue,NoItem
+02,222,10,BrickBlue,NoItem
+03,222,9
+03,222,7
+03,222,5
+02,223,13,BrickBlue,NoItem
+02,223,12,BrickBlue,NoItem
+02,223,11,BrickBlue,NoItem
+02,223,10,BrickBlue,NoItem
+03,223,9
+03,223,7
+03,223,5
+02,224,13,BrickBlue,NoItem
+02,224,12,BrickBlue,NoItem
+02,224,11,BrickBlue,NoItem
+02,224,10,BrickBlue,NoItem
+03,224,9
+03,224,7
+03,224,5
+02,225,13,BrickBlue,NoItem
+02,225,12,BrickBlue,NoItem
+02,225,11,BrickBlue,NoItem
+02,225,10,BrickBlue,NoItem
+03,225,9
+03,225,7
+03,225,5
+02,226,13,BrickBlue,NoItem
+02,226,12,BrickBlue,NoItem
+02,226,11,BrickBlue,NoItem
+02,226,10,BrickBlue,NoItem
+03,226,9
+03,226,7
+03,226,5
+02,227,13,BrickBlue,NoItem
+02,227,12,BrickBlue,NoItem
+02,227,11,BrickBlue,NoItem
+02,227,10,BrickBlue,NoItem
+03,227,9
+03,227,7
+04,230,12,0,False,Horizontal,		coin room exit pipe
+04,232,12,12,False,Connector,		coin connector for coin room exit pipe

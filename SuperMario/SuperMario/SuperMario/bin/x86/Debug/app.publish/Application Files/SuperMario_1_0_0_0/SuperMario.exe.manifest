@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SuperMario.exe" version="1.0.0.0" publicKeyToken="6b5c2da87b12009a" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SuperMario" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SuperMario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Avatar" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Game" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.GamerServices" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Graphics" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Net" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Storage" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Video" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Xact" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SuperMario.exe" size="231936">
+      <assemblyIdentity name="SuperMario" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hZt9w3Kv9/sZ9tQqu0yuNpraGpg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\Background.xnb" size="924187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xJzaZqmXb2PPkoe2pW+NbyyJmAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BackgroundBlack.xnb" size="924187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AlM5/FMfAx1K7Zhuuah6D56dlZA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftFullMouthMarioYoshi.xnb" size="4443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dOi/4+J3aVxVPuQ4lKxklc9vkng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftIdleMarioYoshi.xnb" size="3683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QpVkp7Sf8u9C4suqAYGdyQjoV28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftJumpingMarioYoshi.xnb" size="4555">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RbSzs8OFuBe12TfRYCmopdDlqpA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftTongueLargeMarioYoshi.xnb" size="7531">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/gyDBqQnL/039L5/q488lxfyfoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftTongueMediumMarioYoshi.xnb" size="6171">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BH7VskqXyUcgwdCj6G8zqouE3tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftTongueSmallMarioYoshi.xnb" size="4811">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9wMmYPBsPYGn5PZ096CqRaqbbgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftTongueStartMarioYoshi.xnb" size="9611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tQmXpZBmDta5cflcWQFF2QcKeZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftTongueXLargeMarioYoshi.xnb" size="9163">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N/ImQnWuJozcTK5ANwkgCVK1Xmk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigLeftWalkingMarioYoshi.xnb" size="16423">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Qn+mnIFOJlnsKdPhNBGTc48/nfw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\bigMarioFlagSlide.xnb" size="4031">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qJYWbWKYZLdLUppH9jMG0LryYnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\bigMarioFlagSlideEnd.xnb" size="1867">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Lx/xQf5lfgkm8FrAY/372E9o2Bs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightFullMouthMarioYoshi.xnb" size="4443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ldASBhHCcMfGM8+IoSawpEGPKk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightIdleMarioYoshi.xnb" size="3683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z0as6JAy2PljJerRkNtvK8Nj16o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightJumpingMarioYoshi.xnb" size="4555">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kcIgE96Guk2T9/j5BfR3gmUCNho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightTongueLargeMarioYoshi.xnb" size="7531">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>W8vDWJWhx4ztBJF8VI6L7m2vL/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightTongueMediumMarioYoshi.xnb" size="6171">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p6hA3dKkqfnT2JrsuhzVLF76LGY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightTongueSmallMarioYoshi.xnb" size="4811">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DLDHC0kmdoni6xP6BOE04NUspqo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightTongueStartMarioYoshi.xnb" size="9611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bUrLAwszQOCisXvQgliL3S8CBNY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightTongueXLargeMarioYoshi.xnb" size="9163">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nDzOrBimRpwqAlOIWBHb0tF93Eo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BigRightWalkingMarioYoshi.xnb" size="16423">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bs00Y9hMbDasKKL1WxkN3ryGiII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockBrick.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZXO+7lesTLCuXGGN5W1ls5JIaG8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockBrickBlue.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p4KR8WBBcEX8VESmR/NfpZw80Qk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockBrickParticle.xnb" size="511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UZ/LpWVs4FPTtX9AetU6ia7qkoI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockMetal.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lxf6+RFfQLQ9WVW2KZnCmbFWAMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockQuestion.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ydpoc8Lvt+fWPa8G+rqzbF924R0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BlockUsed.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R0NeQXt6VzGxjCxyuM7tPgQIEDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BowserDead.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YyaMROfF7Ko06Rl5tLyeRWnRN2k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BowserLeftWalkingClosed.xnb" size="8635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CJwmqggQUDMBMbVYWLqrsaJuJkQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BowserLeftWalkingOpen.xnb" size="8379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AA7KvlW2KWwjeHD8k8Xsf/yKyJQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BowserRightWalkingClosed.xnb" size="8635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lP4/6uOC7NJLNm3MhY9WtiLZckE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\BowserRightWalkingOpen.xnb" size="8379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>klH9DuEmkFbyrDOnLrZAjSXkPEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Bush.xnb" size="12475">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Q4OzWVdYhfR4eUEXvddvVsx8F68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Castle.xnb" size="25787">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nV8Mg3rOti6uzQg7mduc/b7Au5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\CastleFlag.xnb" size="667">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VDLY8WRhj2YlSu/sufjjv5/WbEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Cloud.xnb" size="18619">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yYkXVP4FiSebEBjasUbINfoWVj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\CrawfisDead.xnb" size="1819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1FeBlSNwd5aCRP5I2W8ERIyf/78=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\CrawfisLeft.xnb" size="1819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DcFKZbKf91OlFI9VFWilrWL0Xqo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\CrawfisRight.xnb" size="1819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nmqcpDl28OpeODMyTPMzGQKpq/Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Dubstep.xnb" size="14575209">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bXtTqdLuABPa2hPeswYvEPTyCY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EggHatchingSound.xnb" size="22677">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9XQPb7eyJtF0Sj1CmkwDIGi49VY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemiesSheet.xnb" size="455371">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DJjIhMHcVvWGdI6giEjAoFWMz0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemyFlippedGoomba.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Z91zoGW2hGZEHz/nD5AHTBmCTKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemyFlippedKoopaShell.xnb" size="1083">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3V6pJgSkzdgHXVnNB42DG1idXI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemyGoomba.xnb" size="3259">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0X2XbDg8Wkp5ihhNee2YP6x1MRI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemyKoopa.xnb" size="9403">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lGxLsLIZOkNvTLiaV/xIjNl748g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EnemyPiranhaPlant.xnb" size="3131">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uR8gD+xp8v9hScyGL0lpEP/OBYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\EvilLaugh.xnb" size="104081">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UpDo4sC1fzFmttEmmqGbt+Psh9g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Fireball.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>V6yGpwPbmdpc3AYz99vpJaJlQKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fireMarioFlagSlide.xnb" size="4539">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p1d4xZzVR7qV71fBTNhukyiLcwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fireMarioFlagSlideEnd.xnb" size="1699">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dOvoRCajCK49CiuG1OPYQKXWwIU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Flag.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8R+Pf5pjlXt0J7WysA5nrHKVA8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Flagpole.xnb" size="5051">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GwUtJgZ97fot67zKXSSRqVwIz9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\FloorTile.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>InpSMwBT8HrXMlFcv+9hIxpFwpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\FloorTileBlue.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AN8alCcVNujvP3d/Cwc45znkfIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Hill.xnb" size="22587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>frSX8zSWqRoxOjwquukFb5oKt3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\HUDCoin.xnb" size="827">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1fi/Q+XsDON9u1wmRn+VPo76Ja8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\HUDFont.xnb" size="24238">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dKeApRHreK7Qej7ExtHcGznD+bw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\ItemFireFlower.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ulfWN8+gkMRD5pGhj0F10fLfZhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\ItemFloatingCoin.xnb" size="2427">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kYsej431sdI4DbJl+z2NoUGSFfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\ItemMushroom.xnb" size="2235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bACf76NaLOEczN2H5nMPBtGSz6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\ItemStar.xnb" size="3771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fiT2DzFXqNV6dtVCdHu5vdYVVAU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\MarioBigSheet.xnb" size="28859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ECpkn9IqBYvWUP9RgNHvYV7Qmrk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\MarioFireSheet.xnb" size="32955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0iJq5zsLFK3gG3QR/UkV/4xHPIc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\MarioSmallSheet.xnb" size="13499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nEklJzYxkmC8T2IjdYQ79ZNHfFY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\NormalLaugh.xnb" size="83285">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oyHtugGCRDlBnAK4Xw0npU0zdK0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Overworld_Theme.xnb" size="3916097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MuWbl5SqpO0deLwMNMkC9Wig2B0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Overworld_Theme_Fast.xnb" size="2899737">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X0Pd8LXTVKy4XVLoFlpijWhQkJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Pipe.xnb" size="4283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aNG7bqo3KEnkYYFfx1cXBb4pl5c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\PipeHorizontal.xnb" size="5051">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bOCSUM38F+I7rGNTxRZFQq4tnJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\PipeHorizontalConnector.xnb" size="3771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ek5zvuPa2gav0aGqCq463fcCrEo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\RotatingCoin.xnb" size="1979">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pqBn0WeU686ZEGF+DJnjeX2BAbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftFullMouthMarioYoshi.xnb" size="3771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WxoRMLwJkCaaf/kHHBS97QfgEtM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftIdleMarioYoshi.xnb" size="2747">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GfDDiNgF5AgFLeINX1OLxtpzIg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftJumpingMarioYoshi.xnb" size="3643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aACwAqo3Jl3lVCMX8ITsNL90L50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftTongueLargeMarioYoshi.xnb" size="6343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GBB8EtFiScf4m7W/XIT/yCiv9pc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftTongueMediumMarioYoshi.xnb" size="4615">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>w9QVy5khBEtyj5XfXfvAuW9koks=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftTongueSmallMarioYoshi.xnb" size="3751">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cibwHc3PIvwt+GUgPW2P+h+V1oE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftTongueStartMarioYoshi.xnb" size="7739">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MhJ7CwYTOcLdb8Nb23waFxHtdXQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftTongueXLargeMarioYoshi.xnb" size="7207">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+eqaUEFIHt9pfOif08gvrH55grE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallLeftWalkingMarioYoshi.xnb" size="7483">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T+vvSpbll9SKRCxQeZCDFV4DMa4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smallMarioFlagSlide.xnb" size="1787">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1cX0pJKl3PpMLVjdVF5vxFilC5Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smallMarioFlagSlideEnd.xnb" size="955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mgqDnWsWlD38vVqb4OM5XVg5WNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightFullMouthMarioYoshi.xnb" size="3771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>++HbMhL1B/swjewEeRoxAqE08ZE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightIdleMarioYoshi.xnb" size="2747">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CB7dN/y8NJsC7HgWvnOISV7w+zw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightJumpingMarioYoshi.xnb" size="3643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KQhLgDX8mTjtrbnQfxjKMbYuOjM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightTongueLargeMarioYoshi.xnb" size="6343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qkeLbUDPUIoSmYAUBjuYWqLn5jE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightTongueMediumMarioYoshi.xnb" size="4615">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KZWjm4kN2ZaQxw9i5Ms6kkJmyCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightTongueSmallMarioYoshi.xnb" size="3751">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eqsrg4voyM3DDQOG2Ao3/8szZtk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightTongueStartMarioYoshi.xnb" size="7739">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eSN7R/tM6a/t3RIAIrFoIyFh6n4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightTongueXLargeMarioYoshi.xnb" size="7207">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Dg304iuRIjmpI6U4mzjOyrBVjeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallRightWalkingMarioYoshi.xnb" size="7483">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>i8cuO6q+8RAt0PQLOSXTV96c1no=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\SmallToBigMario.xnb" size="49339">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lJ/QnJIARDvY4TcHHUjxawdvZS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_1-up.xnb" size="37573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Dwx4v6mfya0cD3TxzSLxIhhdfHo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_breakblock.xnb" size="24237">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3mtJL+/Hh5/bu3FZ0+UUVzYfK0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_bump.xnb" size="9573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R5xFcfNED+gh9OT+tF9/jtzk3HA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_coin.xnb" size="41801">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3q2UgbXXDU3PdI0We3VVA0I/Ox4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_coin_score.xnb" size="39473">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5MhtjV5m6mCzuHOCD0+RMx0Rx48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_fireball.xnb" size="5903">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GKcCrrchU9hJb2YRjEuDLzuAEy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_fireworks.xnb" size="18689">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BzijqCMTkLtFAD1eMZHPhD85zCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_flagpole.xnb" size="51769">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vy5Za0mx4dzf/eDRXH6YRRHlHhg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_gameover.xnb" size="166555">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rVFohAO14/Pcbo+psTe0fMOEj+g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_jump-small.xnb" size="26129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dStk6k8eEJ9VjYbaUrOlGusqsZg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_jump-super.xnb" size="25859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4yI4qEj2bCGX02CBXwXYwKpN+R8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_kick.xnb" size="8095">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ri7a1Oz1riObEPtQb3/7qPpZYxo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_level_complete.xnb" size="799977">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OLDrgLkzAOuKEn6V8unku5DDL/Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_mariodie.xnb" size="119717">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>P5AvGGXO6TWNVxRJ+kDtxNjEYfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_pause.xnb" size="30321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>obOwceckRVSEZcg/4rj0WlR04QY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_pipe.xnb" size="34685">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nlKbPLy4WzAeAJMlpu0B03DgWuQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_powerup.xnb" size="43727">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ntZG0Jepej6vjf+72qEZpp93rEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_powerup_appears.xnb" size="25875">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fEP5uI0tyIg69nW8hcNAVDmfcyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_stage_clear.xnb" size="248895">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G9EfdKS4fAv7F/6jsAo1ZXWthR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_stomp.xnb" size="12217">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iBOacDUdDf55FthKUDy06PlmkMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_underground.xnb" size="6474345">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mc35vOfIZm0lqpWZ7L2rdWhWqms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_warning.xnb" size="129379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>knZII4njrB2NZdEoHnLOAyQsSpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\smb_world_clear.xnb" size="276353">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iXOyvcB2yTuz6MxykUQeiga616o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Star Theme.xnb" size="5406073">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eqeBIixKgTnyIGLwFWcQ/GsyjRs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Star_Theme_Fast.xnb" size="5358929">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bcDRCMm6gIrRb4116O6M8YJR7yw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiGreenEgg.xnb" size="1083">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NqeuAVRz1ERMpzfxuIwEAVTW3ac=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiGreenEggCracked.xnb" size="1083">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Zr9rYkm+iCNKWW0HL7/r1eRXifY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiIdle.xnb" size="6451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>D+ij0CINP21xVTI4rNmYZ599Xqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiSound.xnb" size="47897">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>t66qMfy9BVQY/lwOSwup8TYfgHw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiSpawning.xnb" size="2235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kLPwJnrWAPZHFW2Ln94i02xcM3g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiSwallowSound.xnb" size="22685">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NUI8PSiGmAo6ewc7ImSl0KtXLG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YoshiTongueSound.xnb" size="13141">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>J5CKYyzCrSnwKbXfnjLnqkiGnxo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\YourCodeSucks.xnb" size="94353">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Rcyjl2meeYDcLcyb/kmBARJjT3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Game.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/y21PfwGnUAkwpPwwaFuIIyWENo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GameThumbnail.png" size="5734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Chris-PC\Chris" issuerKeyHash="aed2650f1d27b49cb879c3bb3e98315ced9a6b4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mA065gv2vf4W2LixXpGwcIf7Qf4=</DigestValue></Reference></SignedInfo><SignatureValue>NkOOAnBEPln1NIqEtyOL3Jyluzic/G2wm4CtV7ATvWmuipVYxGUSYm3iY3MnjzCayff7wuV5SZ5YD+ToM21W+5S4M0HShw/CEbgl3VnnV1XrA+Av51O+sWb3ztNrgM7g8sQwUrfujuBA9b/CwowTY3zX9Q7mZesDPxXt/Tc18xY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ufxKY4tJ6fs1/liFtPSEQfJQLCpbOnH4VWxzttscyzy4I09TzFs+xumd1q7SQzZhrn00k9ZiRmJdlvbgOpOTSJjMwsA66/vyAOH6/vCOb3sovF/ylTaKnEORjxY24vt3tkviakMEzH7EC3PT6qnIwAo99iOW3tE1hdLD+jv2HEs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fe41fb8770b0915eb1b8d816febdf60be63a0d98" Description="" Url=""><as:assemblyIdentity name="SuperMario.exe" version="1.0.0.0" publicKeyToken="6b5c2da87b12009a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Chris-PC\Chris</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3I8L7ArV84dJYbHlOlueZBWo9RQ=</DigestValue></Reference></SignedInfo><SignatureValue>HhvZSpQUjSEE3MKkimF9hbtZip+81qbpf3Ur2+kDmZMyDj/0YGIzeO+yK5x6p6HO29+JOMLlAXFzZiCDCZm4D35XGuU53S0dyLngi6EDH6ebzZNlzQhSzu77s/pfDB++5BUcNb+ZJq1Rmj359Rk/gIAFDA4uQZ5rC1yvmednq80=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ufxKY4tJ6fs1/liFtPSEQfJQLCpbOnH4VWxzttscyzy4I09TzFs+xumd1q7SQzZhrn00k9ZiRmJdlvbgOpOTSJjMwsA66/vyAOH6/vCOb3sovF/ylTaKnEORjxY24vt3tkviakMEzH7EC3PT6qnIwAo99iOW3tE1hdLD+jv2HEs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQGwZ9eInCb61C9l3ar1vhFjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAQwBoAHIAaQBzAC0AUABDAFwAQwBoAHIAaQBzMB4XDTEzMDQxOTA2NDk0M1oXDTE0MDQxOTEyNDk0M1owJzElMCMGA1UEAx4cAEMAaAByAGkAcwAtAFAAQwBcAEMAaAByAGkAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAufxKY4tJ6fs1/liFtPSEQfJQLCpbOnH4VWxzttscyzy4I09TzFs+xumd1q7SQzZhrn00k9ZiRmJdlvbgOpOTSJjMwsA66/vyAOH6/vCOb3sovF/ylTaKnEORjxY24vt3tkviakMEzH7EC3PT6qnIwAo99iOW3tE1hdLD+jv2HEsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCrTJiqLYakCJwIVDeBN2oI9sVtr4AJw9ek0rXDKmlj7GbpulRStW6fIRb0N5DE3h78POwodqNYg1X3/AkfQQLB9g0RR2kAHOPB4gJeT9lOjVu+cr3INSY82U9N0orXTRTgA1WSZriVbFp0s3HSMAH5vfKLxoQoQT4LjKmNIvts5w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

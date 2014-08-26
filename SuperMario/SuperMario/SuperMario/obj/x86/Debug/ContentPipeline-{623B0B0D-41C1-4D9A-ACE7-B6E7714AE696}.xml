@@ -1,0 +1,1190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Background.png</Source>
+      <Name>Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2013-04-14T16:59:37.1697744-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemiesSheet.png</Source>
+      <Name>EnemiesSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemiesSheet.xnb</Output>
+      <Time>2013-04-14T16:59:37.6768012-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockBrick.png</Source>
+      <Name>BlockBrick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockBrick.xnb</Output>
+      <Time>2013-04-14T16:59:37.2687796-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockUsed.png</Source>
+      <Name>BlockUsed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockUsed.xnb</Output>
+      <Time>2013-04-14T17:00:57.8260489-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockQuestion.png</Source>
+      <Name>BlockQuestion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockQuestion.xnb</Output>
+      <Time>2013-04-14T16:59:37.4167875-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MarioSmallSheet.png</Source>
+      <Name>MarioSmallSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\MarioSmallSheet.xnb</Output>
+      <Time>2013-04-14T17:00:58.9901106-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MarioBigSheet.png</Source>
+      <Name>MarioBigSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\MarioBigSheet.xnb</Output>
+      <Time>2013-04-14T16:59:38.766859-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MarioFireSheet.png</Source>
+      <Name>MarioFireSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\MarioFireSheet.xnb</Output>
+      <Time>2013-04-14T16:59:38.8098613-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pipe.png</Source>
+      <Name>Pipe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Pipe.xnb</Output>
+      <Time>2013-04-14T17:01:00.5491932-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemyGoomba.png</Source>
+      <Name>EnemyGoomba</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemyGoomba.xnb</Output>
+      <Time>2013-04-14T16:59:37.7528053-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemyKoopa.png</Source>
+      <Name>EnemyKoopa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemyKoopa.xnb</Output>
+      <Time>2013-04-14T16:59:37.7618057-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FloorTile.png</Source>
+      <Name>FloorTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\FloorTile.xnb</Output>
+      <Time>2013-04-14T16:59:38.0638217-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockMetal.png</Source>
+      <Name>BlockMetal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockMetal.xnb</Output>
+      <Time>2013-04-14T16:59:37.3587844-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemyPiranhaPlant.png</Source>
+      <Name>EnemyPiranhaPlant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemyPiranhaPlant.xnb</Output>
+      <Time>2013-04-14T16:59:37.7888072-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemFireFlower.png</Source>
+      <Name>ItemFireFlower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\ItemFireFlower.xnb</Output>
+      <Time>2013-04-14T16:59:38.6238514-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemMushroom.png</Source>
+      <Name>ItemMushroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\ItemMushroom.xnb</Output>
+      <Time>2013-04-14T16:59:38.6398523-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemFloatingCoin.png</Source>
+      <Name>ItemFloatingCoin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\ItemFloatingCoin.xnb</Output>
+      <Time>2013-04-14T16:59:38.6638535-04:00</Time>
+    </Item>
+    <Item>
+      <Source>RotatingCoin.png</Source>
+      <Name>RotatingCoin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\RotatingCoin.xnb</Output>
+      <Time>2013-04-14T17:00:58.60109-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemStar.png</Source>
+      <Name>ItemStar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\ItemStar.xnb</Output>
+      <Time>2013-04-14T16:59:40.0889291-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Bush.png</Source>
+      <Name>Bush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Bush.xnb</Output>
+      <Time>2013-04-14T16:59:37.4397887-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Cloud.png</Source>
+      <Name>Cloud</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Cloud.xnb</Output>
+      <Time>2013-04-14T16:59:37.4867912-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Hill.png</Source>
+      <Name>Hill</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Hill.xnb</Output>
+      <Time>2013-04-14T16:59:38.0948234-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockBrickParticle.png</Source>
+      <Name>BlockBrickParticle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockBrickParticle.xnb</Output>
+      <Time>2013-04-14T16:59:37.3297828-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Castle.png</Source>
+      <Name>Castle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Castle.xnb</Output>
+      <Time>2013-04-14T16:59:37.4557895-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Flag.png</Source>
+      <Name>Flag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Flag.xnb</Output>
+      <Time>2013-04-14T16:59:37.9618163-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Flagpole.png</Source>
+      <Name>Flagpole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Flagpole.xnb</Output>
+      <Time>2013-04-14T16:59:38.0068187-04:00</Time>
+    </Item>
+    <Item>
+      <Source>HUDCoin.png</Source>
+      <Name>HUDCoin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\HUDCoin.xnb</Output>
+      <Time>2013-04-14T16:59:38.162827-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemyFlippedGoomba.png</Source>
+      <Name>EnemyFlippedGoomba</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemyFlippedGoomba.xnb</Output>
+      <Time>2013-04-14T16:59:37.6868018-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemyFlippedKoopaShell.png</Source>
+      <Name>EnemyFlippedKoopaShell</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EnemyFlippedKoopaShell.xnb</Output>
+      <Time>2013-04-14T16:59:37.7188035-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fireball.png</Source>
+      <Name>Fireball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Fireball.xnb</Output>
+      <Time>2013-04-14T16:59:37.8498104-04:00</Time>
+    </Item>
+    <Item>
+      <Source>bigMarioFlagSlide.png</Source>
+      <Name>bigMarioFlagSlide</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\bigMarioFlagSlide.xnb</Output>
+      <Time>2013-04-14T16:59:37.2417782-04:00</Time>
+    </Item>
+    <Item>
+      <Source>fireMarioFlagSlide.png</Source>
+      <Name>fireMarioFlagSlide</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\fireMarioFlagSlide.xnb</Output>
+      <Time>2013-04-14T16:59:37.8598109-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smallMarioFlagSlide.png</Source>
+      <Name>smallMarioFlagSlide</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smallMarioFlagSlide.xnb</Output>
+      <Time>2013-04-14T17:00:58.8361025-04:00</Time>
+    </Item>
+    <Item>
+      <Source>bigMarioFlagSlideEnd.png</Source>
+      <Name>bigMarioFlagSlideEnd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\bigMarioFlagSlideEnd.xnb</Output>
+      <Time>2013-04-14T16:59:37.2447783-04:00</Time>
+    </Item>
+    <Item>
+      <Source>fireMarioFlagSlideEnd.png</Source>
+      <Name>fireMarioFlagSlideEnd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\fireMarioFlagSlideEnd.xnb</Output>
+      <Time>2013-04-14T16:59:37.9278145-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smallMarioFlagSlideEnd.png</Source>
+      <Name>smallMarioFlagSlideEnd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smallMarioFlagSlideEnd.xnb</Output>
+      <Time>2013-04-14T17:00:58.9311075-04:00</Time>
+    </Item>
+    <Item>
+      <Source>CastleFlag.png</Source>
+      <Name>CastleFlag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\CastleFlag.xnb</Output>
+      <Time>2013-04-14T17:00:57.8560505-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BlockBrickBlue.png</Source>
+      <Name>BlockBrickBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BlockBrickBlue.xnb</Output>
+      <Time>2013-04-14T16:59:37.3297828-04:00</Time>
+    </Item>
+    <Item>
+      <Source>FloorTileBlue.png</Source>
+      <Name>FloorTileBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\FloorTileBlue.xnb</Output>
+      <Time>2013-04-14T16:59:38.0558213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundBlack.png</Source>
+      <Name>BackgroundBlack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BackgroundBlack.xnb</Output>
+      <Time>2013-04-14T16:59:37.1887754-04:00</Time>
+    </Item>
+    <Item>
+      <Source>PipeHorizontalConnector.png</Source>
+      <Name>PipeHorizontalConnector</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\PipeHorizontalConnector.xnb</Output>
+      <Time>2013-04-14T17:00:58.0310598-04:00</Time>
+    </Item>
+    <Item>
+      <Source>PipeHorizontal.png</Source>
+      <Name>PipeHorizontal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\PipeHorizontal.xnb</Output>
+      <Time>2013-04-14T17:00:57.9140536-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallToBigMario.png</Source>
+      <Name>SmallToBigMario</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallToBigMario.xnb</Output>
+      <Time>2013-04-14T17:00:59.035113-04:00</Time>
+    </Item>
+    <Item>
+      <Source>CrawfisLeft.png</Source>
+      <Name>CrawfisLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\CrawfisLeft.xnb</Output>
+      <Time>2013-04-14T16:59:37.5767959-04:00</Time>
+    </Item>
+    <Item>
+      <Source>CrawfisDead.png</Source>
+      <Name>CrawfisDead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\CrawfisDead.xnb</Output>
+      <Time>2013-04-14T16:59:37.5247932-04:00</Time>
+    </Item>
+    <Item>
+      <Source>CrawfisRight.png</Source>
+      <Name>CrawfisRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\CrawfisRight.xnb</Output>
+      <Time>2013-04-14T16:59:37.5997972-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiGreenEgg.png</Source>
+      <Name>YoshiGreenEgg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiGreenEgg.xnb</Output>
+      <Time>2013-04-14T17:01:01.0182181-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiGreenEggCracked.png</Source>
+      <Name>YoshiGreenEggCracked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiGreenEggCracked.xnb</Output>
+      <Time>2013-04-14T17:01:01.1412246-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiSpawning.png</Source>
+      <Name>YoshiSpawning</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiSpawning.xnb</Output>
+      <Time>2013-04-14T17:01:01.4832427-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiIdle.png</Source>
+      <Name>YoshiIdle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiIdle.xnb</Output>
+      <Time>2013-04-14T17:01:01.2392298-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_1-up.wav</Source>
+      <Name>smb_1-up</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_1-up.xnb</Output>
+      <Time>2013-04-14T17:00:59.0931161-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_breakblock.wav</Source>
+      <Name>smb_breakblock</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_breakblock.xnb</Output>
+      <Time>2013-04-14T17:00:59.1511191-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_bump.wav</Source>
+      <Name>smb_bump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_bump.xnb</Output>
+      <Time>2013-04-14T17:00:59.1561194-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_coin.wav</Source>
+      <Name>smb_coin</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_coin.xnb</Output>
+      <Time>2013-04-14T17:00:59.3091275-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_fireball.wav</Source>
+      <Name>smb_fireball</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_fireball.xnb</Output>
+      <Time>2013-04-14T17:00:59.3091275-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_fireworks.wav</Source>
+      <Name>smb_fireworks</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_fireworks.xnb</Output>
+      <Time>2013-04-14T17:00:59.4041326-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_flagpole.wav</Source>
+      <Name>smb_flagpole</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_flagpole.xnb</Output>
+      <Time>2013-04-14T17:00:59.4251337-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_gameover.wav</Source>
+      <Name>smb_gameover</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_gameover.xnb</Output>
+      <Time>2013-04-14T17:00:59.5471401-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_jump-small.wav</Source>
+      <Name>smb_jump-small</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_jump-small.xnb</Output>
+      <Time>2013-04-14T17:00:59.4901371-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_jump-super.wav</Source>
+      <Name>smb_jump-super</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_jump-super.xnb</Output>
+      <Time>2013-04-14T17:00:59.7501509-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_kick.wav</Source>
+      <Name>smb_kick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_kick.xnb</Output>
+      <Time>2013-04-14T17:00:59.5201387-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_mariodie.wav</Source>
+      <Name>smb_mariodie</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_mariodie.xnb</Output>
+      <Time>2013-04-14T17:00:59.6471454-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_pause.wav</Source>
+      <Name>smb_pause</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_pause.xnb</Output>
+      <Time>2013-04-14T17:00:59.7011483-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_pipe.wav</Source>
+      <Name>smb_pipe</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_pipe.xnb</Output>
+      <Time>2013-04-14T17:00:59.7271497-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_powerup.wav</Source>
+      <Name>smb_powerup</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_powerup.xnb</Output>
+      <Time>2013-04-14T17:00:59.8181545-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_powerup_appears.wav</Source>
+      <Name>smb_powerup_appears</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_powerup_appears.xnb</Output>
+      <Time>2013-04-14T17:00:59.8861581-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_stage_clear.wav</Source>
+      <Name>smb_stage_clear</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_stage_clear.xnb</Output>
+      <Time>2013-04-14T17:01:01.337235-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_stomp.wav</Source>
+      <Name>smb_stomp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_stomp.xnb</Output>
+      <Time>2013-04-14T17:00:59.9081593-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_warning.wav</Source>
+      <Name>smb_warning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_warning.xnb</Output>
+      <Time>2013-04-14T17:01:00.6481985-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_world_clear.wav</Source>
+      <Name>smb_world_clear</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_world_clear.xnb</Output>
+      <Time>2013-04-14T17:01:01.3432353-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Overworld_Theme.wav</Source>
+      <Name>Overworld_Theme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Overworld_Theme.xnb</Output>
+      <Time>2013-04-14T17:01:05.0134298-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Overworld_Theme_Fast.wav</Source>
+      <Name>Overworld_Theme_Fast</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Overworld_Theme_Fast.xnb</Output>
+      <Time>2013-04-14T17:03:01.8476217-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Star Theme.wav</Source>
+      <Name>Star Theme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Star Theme.xnb</Output>
+      <Time>2013-04-14T17:01:07.4145571-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Star_Theme_Fast.wav</Source>
+      <Name>Star_Theme_Fast</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Star_Theme_Fast.xnb</Output>
+      <Time>2013-04-14T17:01:06.4675069-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_level_complete.wav</Source>
+      <Name>smb_level_complete</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_level_complete.xnb</Output>
+      <Time>2013-04-14T17:01:00.5721945-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_coin_score.wav</Source>
+      <Name>smb_coin_score</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_coin_score.xnb</Output>
+      <Time>2013-04-14T17:00:59.2271232-04:00</Time>
+    </Item>
+    <Item>
+      <Source>smb_underground.wav</Source>
+      <Name>smb_underground</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\smb_underground.xnb</Output>
+      <Time>2013-04-14T17:01:02.8003125-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YourCodeSucks.wav</Source>
+      <Name>YourCodeSucks</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YourCodeSucks.xnb</Output>
+      <Time>2013-04-14T17:01:01.6752529-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EvilLaugh.wav</Source>
+      <Name>EvilLaugh</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EvilLaugh.xnb</Output>
+      <Time>2013-04-14T16:59:37.9528159-04:00</Time>
+    </Item>
+    <Item>
+      <Source>NormalLaugh.wav</Source>
+      <Name>NormalLaugh</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\NormalLaugh.xnb</Output>
+      <Time>2013-04-14T17:00:59.1721203-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiSound.wav</Source>
+      <Name>YoshiSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiSound.xnb</Output>
+      <Time>2013-04-14T17:01:01.5492462-04:00</Time>
+    </Item>
+    <Item>
+      <Source>EggHatchingSound.wav</Source>
+      <Name>EggHatchingSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\EggHatchingSound.xnb</Output>
+      <Time>2013-04-14T16:59:37.6357991-04:00</Time>
+    </Item>
+    <Item>
+      <Source>HUDFont.spritefont</Source>
+      <Name>HUDFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\HUDFont.xnb</Output>
+      <Time>2013-04-14T16:59:38.1518264-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Dubstep.wav</Source>
+      <Name>Dubstep</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\Dubstep.xnb</Output>
+      <Time>2013-04-15T04:52:04.0522391-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftIdleMarioYoshi.png</Source>
+      <Name>BigLeftIdleMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftIdleMarioYoshi.xnb</Output>
+      <Time>2013-04-14T16:59:38.6988554-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightIdleMarioYoshi.png</Source>
+      <Name>BigRightIdleMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightIdleMarioYoshi.xnb</Output>
+      <Time>2013-04-14T17:01:03.300339-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftWalkingMarioYoshi.png</Source>
+      <Name>BigLeftWalkingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftWalkingMarioYoshi.xnb</Output>
+      <Time>2013-04-14T16:59:38.7448578-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightWalkingMarioYoshi.png</Source>
+      <Name>BigRightWalkingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightWalkingMarioYoshi.xnb</Output>
+      <Time>2013-04-14T17:00:58.5480872-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftJumpingMarioYoshi.png</Source>
+      <Name>BigLeftJumpingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftJumpingMarioYoshi.xnb</Output>
+      <Time>2013-04-14T16:59:38.7318572-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightJumpingMarioYoshi.png</Source>
+      <Name>BigRightJumpingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightJumpingMarioYoshi.xnb</Output>
+      <Time>2013-04-14T17:00:58.3130747-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftTongueStartMarioYoshi.png</Source>
+      <Name>BigLeftTongueStartMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftTongueStartMarioYoshi.xnb</Output>
+      <Time>2013-04-14T18:58:07.6446096-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightTongueStartMarioYoshi.png</Source>
+      <Name>BigRightTongueStartMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightTongueStartMarioYoshi.xnb</Output>
+      <Time>2013-04-14T18:58:07.6476097-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftTongueSmallMarioYoshi.png</Source>
+      <Name>BigLeftTongueSmallMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftTongueSmallMarioYoshi.xnb</Output>
+      <Time>2013-04-14T21:59:39.3168376-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightTongueSmallMarioYoshi.png</Source>
+      <Name>BigRightTongueSmallMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightTongueSmallMarioYoshi.xnb</Output>
+      <Time>2013-04-14T21:59:39.3228379-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftTongueMediumMarioYoshi.png</Source>
+      <Name>BigLeftTongueMediumMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftTongueMediumMarioYoshi.xnb</Output>
+      <Time>2013-04-14T20:33:32.390005-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightTongueMediumMarioYoshi.png</Source>
+      <Name>BigRightTongueMediumMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightTongueMediumMarioYoshi.xnb</Output>
+      <Time>2013-04-14T20:33:32.3930051-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftTongueMediumMarioYoshi.png</Source>
+      <Name>SmallLeftTongueMediumMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftTongueMediumMarioYoshi.xnb</Output>
+      <Time>2013-04-14T20:07:24.8979323-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightTongueMediumMarioYoshi.png</Source>
+      <Name>SmallRightTongueMediumMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightTongueMediumMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:07.839722-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftTongueLargeMarioYoshi.png</Source>
+      <Name>BigLeftTongueLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftTongueLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:24.7924407-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightTongueLargeMarioYoshi.png</Source>
+      <Name>BigRightTongueLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightTongueLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:25.2074627-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftTongueXLargeMarioYoshi.png</Source>
+      <Name>BigLeftTongueXLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftTongueXLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:24.9254477-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightTongueXLargeMarioYoshi.png</Source>
+      <Name>BigRightTongueXLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightTongueXLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:25.3824719-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiTongueSound.wav</Source>
+      <Name>YoshiTongueSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiTongueSound.xnb</Output>
+      <Time>2013-04-15T04:44:45.0019706-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigLeftFullMouthMarioYoshi.png</Source>
+      <Name>BigLeftFullMouthMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigLeftFullMouthMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:24.5364271-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BigRightFullMouthMarioYoshi.png</Source>
+      <Name>BigRightFullMouthMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BigRightFullMouthMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:35:25.0734556-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftIdleMarioYoshi.png</Source>
+      <Name>SmallLeftIdleMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftIdleMarioYoshi.xnb</Output>
+      <Time>2013-04-15T05:41:30.5934574-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightIdleMarioYoshi.png</Source>
+      <Name>SmallRightIdleMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightIdleMarioYoshi.xnb</Output>
+      <Time>2013-04-15T05:41:30.5974576-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftWalkingMarioYoshi.png</Source>
+      <Name>SmallLeftWalkingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftWalkingMarioYoshi.xnb</Output>
+      <Time>2013-04-15T06:00:39.6163524-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightWalkingMarioYoshi.png</Source>
+      <Name>SmallRightWalkingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightWalkingMarioYoshi.xnb</Output>
+      <Time>2013-04-15T06:00:39.6223527-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftJumpingMarioYoshi.png</Source>
+      <Name>SmallLeftJumpingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftJumpingMarioYoshi.xnb</Output>
+      <Time>2013-04-15T06:23:18.5803737-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightJumpingMarioYoshi.png</Source>
+      <Name>SmallRightJumpingMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightJumpingMarioYoshi.xnb</Output>
+      <Time>2013-04-15T06:23:18.5833738-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftTongueStartMarioYoshi.png</Source>
+      <Name>SmallLeftTongueStartMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftTongueStartMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:13:28.7026916-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightTongueStartMarioYoshi.png</Source>
+      <Name>SmallRightTongueStartMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightTongueStartMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:13:28.7066918-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftFullMouthMarioYoshi.png</Source>
+      <Name>SmallLeftFullMouthMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftFullMouthMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:05.3465899-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftTongueLargeMarioYoshi.png</Source>
+      <Name>SmallLeftTongueLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftTongueLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:05.3495901-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftTongueXLargeMarioYoshi.png</Source>
+      <Name>SmallLeftTongueXLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftTongueXLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:05.3515902-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightFullMouthMarioYoshi.png</Source>
+      <Name>SmallRightFullMouthMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightFullMouthMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:05.3535903-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightTongueLargeMarioYoshi.png</Source>
+      <Name>SmallRightTongueLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightTongueLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:05.3565904-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightTongueXLargeMarioYoshi.png</Source>
+      <Name>SmallRightTongueXLargeMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightTongueXLargeMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:07.8467224-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallLeftTongueSmallMarioYoshi.png</Source>
+      <Name>SmallLeftTongueSmallMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallLeftTongueSmallMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:55.8372658-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallRightTongueSmallMarioYoshi.png</Source>
+      <Name>SmallRightTongueSmallMarioYoshi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\SmallRightTongueSmallMarioYoshi.xnb</Output>
+      <Time>2013-04-15T08:36:55.8392659-04:00</Time>
+    </Item>
+    <Item>
+      <Source>YoshiSwallowSound.wav</Source>
+      <Name>YoshiSwallowSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\YoshiSwallowSound.xnb</Output>
+      <Time>2013-04-15T08:18:41.8282864-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BowserLeftWalkingClosed.png</Source>
+      <Name>BowserLeftWalkingClosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BowserLeftWalkingClosed.xnb</Output>
+      <Time>2013-04-18T01:36:54.9019658-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BowserLeftWalkingOpen.png</Source>
+      <Name>BowserLeftWalkingOpen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BowserLeftWalkingOpen.xnb</Output>
+      <Time>2013-04-18T01:25:28.8226056-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BowserRightWalkingClosed.png</Source>
+      <Name>BowserRightWalkingClosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BowserRightWalkingClosed.xnb</Output>
+      <Time>2013-04-18T01:36:54.903966-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BowserRightWalkingOpen.png</Source>
+      <Name>BowserRightWalkingOpen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BowserRightWalkingOpen.xnb</Output>
+      <Time>2013-04-18T01:25:28.8276058-04:00</Time>
+    </Item>
+    <Item>
+      <Source>BowserDead.png</Source>
+      <Name>BowserDead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\BowserDead.xnb</Output>
+      <Time>2013-04-18T01:55:31.0161168-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{623B0B0D-41C1-4D9A-ACE7-B6E7714AE696}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMarioContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Chris\Desktop\Team Terabyte\Team-Terabyte\SuperMario\SuperMario\SuperMario\SuperMario\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-09T00:10:59.2743618-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

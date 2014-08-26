@@ -1,0 +1,204 @@
+
+line	->	<item>|<position>|<conditional>
+
+
+	item		-> 	<mario> + <floor tile> + <block> + <floating coin> + <pipe> + <enemy> + <hill> +
+					<bush> + <cloud> +  <castle> + <flag pole>
+
+	position	->	<xPos>|<yPos>
+
+	conditional	->	<floor tile conditional> + <block conditional> + <pipe conditional> +
+					<enemy conditional> + <hill conditional> + <bush conditional> +
+					<cloud conditional> + <empty conditional>
+
+
+			mario					->	00
+
+			floor tile 				->	01
+
+			block					->	02
+
+			floating coin			->	03
+
+			pipe					->	04
+
+			enemy					->	05
+
+			hill					->	06
+			// large hill position needs to be one level cell higher than you want it to appear on
+			// the screen, i.e. -1 to the yPos value
+
+			bush					->	07
+
+			cloud					->	08
+
+			castle					->	09  // y pos should be 9 for standard floor height
+
+			flag pole				->	10
+			
+			check point				->	11
+
+			xPos					->	int X
+
+			yPos					->	int Y
+
+			floor tile conditional	->	<width>|<height>|<color>
+
+			block conditional		->	<block type>|<item>
+
+			pipe conditional		->	<height>|<warp>|<pipe type>
+
+			enemy conditional		->	<enemy type>
+
+			hill conditional		->	<hill size>
+
+			bush conditional		->	<bush size>
+
+			cloud conditional		->	<cloud size>
+
+			empty conditional		->	NULL
+
+
+				height		->	int H
+
+				width 		->	int W
+
+				color		->  <red> + <blue>
+
+				block type	->	<brick> + <blue brick> + <question> + <metal> + <coin brick>
+
+				item		->	<power up> + <rotating coin> + <star> + <1up> + <no item>
+
+				warp		->	bool
+
+				pipe type	->	<top> + <horizontal> + <connector>
+
+				enemy type	->	<goomba> + <koopa> + <pirhana plant>
+
+				hill size	->	<small> + <large hill>
+
+				bush size	->	<small> + <medium> + <large>
+
+					
+					red					->	"red"
+
+					blue				->	"blue"
+
+					brick				->	"Brick"
+
+					blue brick			->	"BrickBlue"
+
+					question			->	"Question"
+
+					metal				->	"Metal"
+
+					coin brick			->	"CoinBrick"
+
+					power up			->	"Powerup"
+
+					rotating coin		->	"RotatingCoin"
+
+					star				->	"Star"
+
+					1up					->	"1up"
+
+					no item				->	"NoItem"
+
+					top					->	"Top"
+
+					horizontal			->	"Horizontal"
+
+					connector			->	"Connector"
+
+					goomba				->	"WalkingGoomba"
+
+					koopa troopa		->	"LeftWalkingKoopa"
+
+					piranha plant		->	"PiranhaPlant"
+
+					small				->	0
+
+					medium				->	1
+
+					large				->	2
+
+					large hill			->	1
+
+
+
+/*	<conditional> is dependant on <item>
+ *	the relationship is reflected in the identifiers for the elements of each
+ *	e.g. <floor tile> corrosponds to <floor tile conditional>
+ *	if there is no corrosponding conditional to the item, it defaults to <empty conditional>
+ *
+ *	| indicates concatenation (or in the case of a CSV, a ',')
+ *	+ indicates logical or
+ *	(I couldn't remember the symbols traditionally used)
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+					(enemies not yet implemented)
+					koopa paratroopa	->	03
+
+					hammer bro.			->	04
+
+					lakitu				->	05
+
+					spiny				->	06
+
+					buzzy beetle		->	07
+
+					bill blaster		->	08
+
+					bullet bill			->	09
+
+					blooper				->	10
+
+					cheep-cheep			->	11
+
+					lava bubble			->	12
+
+					false bowser		->	13
+
+					bowser				->	14
+
